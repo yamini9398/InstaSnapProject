@@ -17,7 +17,7 @@ public class VerifyElectricProduct extends BaseTest
 	@Test(priority = 2,invocationCount = 2,dependsOnMethods = "createProduct")
 	public void updateproduct()
 	{
-		Reporter.log("ElectricProduct  product updated",true);asdf
+		Reporter.log("ElectricProduct  product updated",true);
 	}
 }
 	
